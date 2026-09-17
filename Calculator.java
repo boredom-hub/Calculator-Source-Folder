@@ -6,8 +6,8 @@ public class Calculator {
     JFrame design;
     JLabel label1;
 
-    int firstNumber = 0;
-    int secondNumber = 0;
+    double firstNumber = 0;
+    double secondNumber = 0;
     String operator = "+";
     boolean enteringSecondNumber = false;
 
@@ -142,7 +142,7 @@ public class Calculator {
 
     private void calculation() {
 
-        int result;
+        double result;
 
         if (operator.equals("+")) {
             result = firstNumber + secondNumber;
